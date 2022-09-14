@@ -98,6 +98,8 @@ body {
   margin: 30px -10px;
   margin-right: -10px;
   padding: 10px;
+  margin-bottom: -10px;
+  padding-bottom: 30px;
 }
 .list h2 {
   margin-left: 10px;
@@ -143,7 +145,6 @@ main {
 footer {
   background-color: #353535;
   padding: 20px;
-  margin-top: 25px;
 }
 footer .fa-utensils {
   margin-right: 15px;
@@ -187,7 +188,7 @@ footer h2, footer a {
   display: flex;
   justify-content: space-between;
   background-color: white;
-  border-radius: 30px;
+  border-radius: 20px;
   height: 100px;
   box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
   overflow: hidden;
@@ -221,7 +222,7 @@ footer h2, footer a {
 }
 .price strong {
   display: block;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 * {
@@ -230,6 +231,10 @@ footer h2, footer a {
 
 .about h2 {
   font-family: shrikhand, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 .top-meal h1 {
@@ -286,7 +291,7 @@ button:hover {
 .btn {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 20px;
   padding-top: 30px;
   margin: 15px;
   margin-right: 10px;
@@ -356,6 +361,30 @@ button:hover {
   z-index: 1;
 }
 .like .fa-regular:hover {
+  opacity: 0;
+}
+
+.like__back-smoke {
+  position: relative;
+}
+.like__back-smoke .fa-heart {
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  transition: all 450ms;
+  font-size: 25px;
+}
+.like__back-smoke .fa-solid {
+  background: linear-gradient(350deg, #9356DC 25%, #FF79DA 65%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.like__back-smoke .fa-regular {
+  background: #f6f6f6;
+  z-index: 1;
+}
+.like__back-smoke .fa-regular:hover {
   opacity: 0;
 }
 

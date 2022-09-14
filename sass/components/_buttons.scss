@@ -46,7 +46,7 @@ button {
 .btn {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 20px;
     padding-top: 30px;
     margin: 15px;
     margin-right: 10px;
@@ -111,6 +111,29 @@ button {
     }
     .fa-regular{
         background: white;
+        z-index: 1;
+        &:hover {
+            opacity: 0;
+        }
+        }
+}
+
+.like__back-smoke {
+    position: relative;
+    .fa-heart{
+    position: absolute;
+    right: 25px;
+    top: 35px;
+    transition: all 450ms;
+    font-size: 25px;
+    }
+    .fa-solid{
+        background: $background-grad;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fa-regular{
+        background: $colour-background;
         z-index: 1;
         &:hover {
             opacity: 0;

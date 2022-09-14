@@ -55,6 +55,8 @@ body {
     margin: 30px -10px;
     margin-right: -10px;
     padding: 10px;
+    margin-bottom: -10px;
+    padding-bottom: 30px;
     h2 {
         margin-left: 10px;
         font-weight: 600;
@@ -97,7 +99,6 @@ main {
 footer {
     background-color: $colour-footer;
     padding: 20px;
-    margin-top: 25px;
         .fa-utensils{
         margin-right: 15px;
         }
