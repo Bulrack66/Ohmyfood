@@ -1,8 +1,10 @@
-@function set-color($colour-background) {
-    @if (lightness(white) < 40) {
-      @return white;
-    }
-    @else {
-      @return $colour-background;
-    }
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity:0;
+  }
+  30% {
+    transform: translateY(0%);
+    opacity:1;
+  }
 }
