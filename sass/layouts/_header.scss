@@ -1,0 +1,39 @@
+// * //
+h1 {
+    margin-top: 22px;
+}
+// first page //
+.top-meal {
+    display: flex;
+    justify-content: space-between;
+}
+.presentation {
+    display:flex;
+    justify-content: center;
+    #lapalettedugout {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    }
+}
+
+// second page //
+#lanoteenchantee {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+// thrid page //
+#alafrancaise {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+// fourth page //
+#ledelicedessens {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

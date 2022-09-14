@@ -1,0 +1,8 @@
+@function set-color($colour-background) {
+    @if (lightness(white) < 40) {
+      @return white;
+    }
+    @else {
+      @return $colour-background;
+    }
+}
