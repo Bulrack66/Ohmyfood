@@ -3,6 +3,10 @@ h1 {
     margin-top: 22px;
     font-size: 29px;
 }
+body {
+    position: relative;
+    transition: 0s;
+}
 // first page //
 .top-meal {
     display: flex;
