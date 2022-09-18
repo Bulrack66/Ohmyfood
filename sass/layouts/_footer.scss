@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: auto;
+    }
+
+footer {
+    background-color: $colour-footer;
+    padding: 20px;
+    .fa-utensils{
+    margin-right: 15px;
+    }
+    .fa-handshake-angle {
+    margin-right: 13px;
+    font-size: 13px;
+    }
+    & h2,a {
+    color:white ;
+    }
+    a {
+        display: flex;
+        flex-direction: row;
+    }
+    i {
+        align-items: center;
+    }
+    p {margin-top: auto;
+    margin-bottom: auto;
+    }
+}

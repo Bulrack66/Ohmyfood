@@ -5,7 +5,7 @@ body {
 .logo {
         display: flex;
         justify-content: center;
-        height: 70px;
+        padding-bottom: 10px;
         img {
         display: block;
         margin: auto;
@@ -34,7 +34,7 @@ body {
     margin: -10px;
     padding-top: 30px;
     padding-right: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-left: 20px;
     background-color: $colour-background;
     &__text {    
@@ -85,30 +85,8 @@ a {
     text-decoration: none;
 }
 
-.about {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-direction: column;
-    row-gap: 10px;
-    margin-bottom: auto;
-    }
 main {
     padding: 10px;
-}
-footer {
-    background-color: $colour-footer;
-    padding: 20px;
-        .fa-utensils{
-        margin-right: 15px;
-        }
-        .fa-handshake-angle {
-            margin-right: 13px;
-            font-size: 13px;
-        }
-        & h2,a {
-            color:white ;
-        }
 }
 
 .description {

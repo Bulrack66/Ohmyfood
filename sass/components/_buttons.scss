@@ -15,7 +15,7 @@ button {
     cursor: pointer;
     &::after {
         content: "";
-        width: 210px;
+        width: 110%;
         height: 210px;
         background: $background-grad;
         position: absolute;
@@ -82,9 +82,6 @@ button {
             h3 {
                 margin: auto;
                 font-size: 15px;
-            }
-            .fa-mobile-screen-button {
-                width:35px;
             }
             &:hover {
                 background-color: $colour-select;

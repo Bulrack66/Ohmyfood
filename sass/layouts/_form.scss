@@ -1,0 +1,92 @@
+@media all and (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    .btn {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 15px;
+        &__select {
+            flex-basis: 30%;
+        }
+        h2 {
+            width:100%;
+            font-size: 30px;
+            text-decoration: underline 3px $colour-tertiary;
+            text-underline-position: under;
+        }
+    }
+    .list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: 25%;
+        h2 {
+            width: 100%;
+        }
+        a {
+            flex-basis: 45%;
+        }
+    }
+    .meal {
+        flex-basis: 30%;
+        height: 150px;
+        flex-direction: column;
+        h3 {
+            margin: auto;
+            text-align: center;
+            font-size: 22px;
+        }
+        p {
+            margin: auto;
+            text-align: center;
+            white-space: inherit;
+            font-size: 18px;
+        }
+        .price strong {
+            margin-bottom: 0px;
+            z-index: 1;
+            display: flex;
+            width: 100%;
+            background: $colour-tertiary;
+            justify-content: center;
+            color: white;
+            border: none;
+            font-size: 22px;
+        }
+        &__description 
+        {
+            flex-basis: 80%;
+        }
+        &:hover {
+            .checked {
+                height: 50%;
+                width: 100%;
+                font-size: 22px;
+                i {
+                    animation: 0,4s cubic-bezier(.63,.35,.42,.82) 0s 1 slideInFromBottom;
+
+                }
+            }
+        }
+        .price {
+            justify-content: center;
+            height:0%;
+            margin: 0 0 19px 0;
+            }
+        }
+        .checked {
+            height: 0%;
+            width: 100%;
+            margin: Opx;
+        }
+        button {
+            &:hover::after {
+                transform: rotate(0deg);
+            }
+        }
+        .about h2 {
+            font-size: 30px;
+          }
+}

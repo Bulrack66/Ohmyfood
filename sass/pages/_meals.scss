@@ -1,7 +1,10 @@
-.btn__meal>h2 {
+
+.btn__meal{
+    flex-basis: 100%;
+    h2 {
     font-size: 20px;
 }
-
+}
 .bloc-page {
     position: relative;
     background-color: $colour-background;
@@ -17,6 +20,7 @@
     height: 100px;
     box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
     overflow: hidden;
+    flex-basis: 100%;
     &__description {
         display: flex;
         flex-direction: column;
