@@ -1,18 +1,122 @@
 @media all and (min-width: 768px) {
-    h1 {
-        font-size: 40px;
+    // WELC //
+
+    .location {
+        display: flex;
+        justify-content: end;
+        background-color: inherit;
+        background: linear-gradient(90deg, $colour-background 0%, $colour-location 85%);
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      // MEALS // 
+
+    .logo {
+        display: flex;
+        justify-content: start;
+        background-color: $colour-background;
+        img {
+        display: flex;
+        margin: 0 0 0 10px;
+        width: 50vh;
+        justify-content: start;
+      }
     }
+
+    .like__back-smoke .fa-heart {
+        top: 51px;
+      }
+
+    .presentation #lapalettedugout {
+        width: 50%;
+        height: 198px;
+        border-radius: 30px;
+        position: absolute;
+        right: 21px;
+        top: 20px;
+        box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
+        border: 5px solid white;
+    }
+
+    .presentation #alafrancaise {
+        width: 50%;
+        height: 198px;
+        border-radius: 30px;
+        position: absolute;
+        right: 21px;
+        top: 20px;
+        box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
+        border: 5px solid white;
+    }
+
+    .presentation #lanoteenchantee {
+        width: 50%;
+        height: 198px;
+        border-radius: 30px;
+        position: absolute;
+        right: 21px;
+        top: 20px;
+        box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
+        border: 5px solid white;
+    }
+
+    .presentation #ledelicedessens {
+        width: 50%;
+        height: 198px;
+        border-radius: 30px;
+        position: absolute;
+        right: 21px;
+        top: 20px;
+        box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
+        border: 5px solid white;
+    }
+    .top-meal {
+        justify-content: start;
+        column-gap: 70px;
+        width: 50%;
+      }
+    h1 {
+        font-size: 25px;
+        margin-top: 45px;
+    }
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        align-items: inherit;
+        column-gap: 20px;
+        margin: -10px;
+        padding-top: 14px;
+        padding-right: 20px;
+        padding-bottom: 25px;
+        padding-left: 0px;
+        background-color: $colour-background;
+      }
     .btn {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         column-gap: 15px;
+        padding-top: 30px;
         &__select {
             flex-basis: 30%;
         }
         h2 {
             width:100%;
-            font-size: 30px;
+            font-size: 22px;
+            margin-bottom: 0px;
+            .under-lign::after {
+                content: "";
+                width: 20vh;
+                height: 4px;
+                display: flex;
+                background-color: #99E2D0;
+                margin-top: 5px;
+              }
         }
     }
     .list {
@@ -31,6 +135,7 @@
         flex-basis: 30%;
         height: 150px;
         flex-direction: column;
+        border: 5px solid #99e2d0;
         h3 {
             margin: auto;
             text-align: center;
@@ -77,14 +182,28 @@
         .checked {
             height: 0%;
             width: 100%;
-            margin: Opx;
+            margin: 0px;
         }
         button {
+            font-size: 20px;
+            border-radius: 25px;
             &:hover::after {
                 transform: rotate(0deg);
             }
         }
         .about h2 {
             font-size: 30px;
-          }
+        }
+}
+
+@media all and (min-width: 768px) and (max-width:1170px){
+
+    .meal h3 {
+        font-size: 20px;
+        white-space: normal;
+    }
+    .meal p {
+        font-size: 15px;
+    }
+
 }

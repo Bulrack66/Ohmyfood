@@ -16,11 +16,11 @@ button {
     &::after {
         content: "";
         width: 110%;
-        height: 210px;
+        height: 400px;
         background: $background-grad;
         position: absolute;
-        top:-80px;
-        left: -5px;
+        top:-165px;
+        left: -15px;
         z-index: -1;
         transition: all .5s;
     }
