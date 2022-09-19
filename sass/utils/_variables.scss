@@ -8,16 +8,16 @@ $colour-select:#f5edff;
 $background-grad: linear-gradient(350deg, $colour-primary 25%, $colour-secondary 65%);
 
 // loader //
-$color-bg: #F77A52;
-$color-grounds:#332409;
-$color-coffee: rgba($color-grounds, .85);
-$color-water: rgba(#5EE6EB,.15);
-$color-lid: #332532;
-$color-accent: #734952;
-$color-carafe: rgba(#FFF6EB, .2);
+$color-bg: #f6f6f6;
+$color-grounds:#9356DC;
+$color-coffee: rgba(#FF79DA, .85);
+$color-water: rgba(#99E2D0,.15);
+$color-lid: #9356DC;
+$color-accent: #FF79DA;
+$color-carafe: rgba(#99E2D0, .2);
 $color-filter: $color-lid;
 $color-shading: rgba(#000, .12);
-$color-highlight: rgba(#fff, .1);
+$color-highlight: rgba(#99E2D0, .1);
 
 $carafe-height:80%;
 $carafe-padding: 5%;

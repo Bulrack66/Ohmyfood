@@ -49,13 +49,13 @@
   }
   40%, 50% {
     transform: scaleY(1) scaleX(1) rotate(0);
-    background-color: rgba(51, 36, 9, 0.85);
+    background-color: rgba(255, 121, 218, 0.85);
     transform-origin: top right;
   }
   70%, 100% {
     transform: rotate(-90deg);
     transform-origin: top right;
-    background-color: rgba(51, 36, 9, 0.85);
+    background-color: rgba(255, 121, 218, 0.85);
   }
 }
 @keyframes fill-water {
@@ -68,13 +68,13 @@
   }
   40%, 50% {
     transform: scaleY(1) scaleX(1) rotate(0);
-    background-color: rgba(51, 36, 9, 0.85);
+    background-color: rgba(255, 121, 218, 0.85);
     transform-origin: top right;
   }
   70%, 100% {
     transform: rotate(-90deg);
     transform-origin: top right;
-    background-color: rgba(51, 36, 9, 0.85);
+    background-color: rgba(255, 121, 218, 0.85);
   }
 }
 @-webkit-keyframes plunge {
@@ -139,18 +139,20 @@
 }
 @-webkit-keyframes timerloader {
   0% {
-    transform: scale(1);
+    opacity: 1;
   }
   100% {
-    transform: scale(0);
+    visibility: hidden;
+    opacity: 0;
   }
 }
 @keyframes timerloader {
   0% {
-    transform: scale(1);
+    opacity: 1;
   }
   100% {
-    transform: scale(0);
+    visibility: hidden;
+    opacity: 0;
   }
 }
 .meal__1 {
@@ -533,12 +535,12 @@ button:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #F77A52;
+  background: #f6f6f6;
   display: flex;
   overflow: hidden;
   z-index: 1;
-  -webkit-animation: 3s linear 1s 1 both timerloader;
-          animation: 3s linear 1s 1 both timerloader;
+  -webkit-animation: 7s ease-in-out 7s 1 both timerloader;
+          animation: 7s ease-in-out 7s 1 both timerloader;
 }
 
 .holder {
@@ -548,7 +550,7 @@ button:hover {
   bottom: 25%;
   left: auto;
   width: 20%;
-  background: #332532;
+  background: #9356DC;
   border-right: 0;
   border-radius: 100% 0 0 100%/20% 0 0 20%;
 }
@@ -560,7 +562,7 @@ button:hover {
   left: 37%;
   content: "";
   display: block;
-  background: #F77A52;
+  background: #f6f6f6;
   border-radius: 100% 0 0 100%/20% 0 0 20%;
 }
 
@@ -589,15 +591,15 @@ button:hover {
   left: 0;
   box-sizing: border-box;
   height: 80%;
-  background: rgba(255, 246, 235, 0.2);
-  border-radius: 0 0 4% 4%;
-  box-shadow: inset -4rem 0 rgba(255, 255, 255, 0.1);
+  background: rgba(153, 226, 208, 0.2);
+  border-radius: 0 0 18% 18%;
+  box-shadow: inset -4rem 0 rgba(153, 226, 208, 0.1);
   z-index: 0;
 }
 
 .drop {
   width: 30%;
-  background: rgba(51, 36, 9, 0.85);
+  background: rgba(255, 121, 218, 0.85);
   position: absolute;
   left: 95%;
   top: 4%;
@@ -633,7 +635,7 @@ button:hover {
   height: 0;
   margin-left: -500px;
   border-bottom: 500px solid transparent;
-  border-left: 500px solid rgba(255, 246, 235, 0.2);
+  border-left: 500px solid rgba(153, 226, 208, 0.2);
 }
 
 .contents {
@@ -643,7 +645,7 @@ button:hover {
   bottom: 5%;
   left: 5%;
   box-sizing: border-box;
-  background: rgba(255, 246, 235, 0.1);
+  background: rgba(153, 226, 208, 0.1);
   border-radius: 0 0 1rem 1rem;
   z-index: -1;
   overflow: hidden;
@@ -653,7 +655,7 @@ button:hover {
   position: absolute;
   right: 0;
   left: 0;
-  background: #332532;
+  background: #9356DC;
   border-top-right-radius: 20% 50%;
   border-top-left-radius: 20% 50%;
   height: 20%;
@@ -668,7 +670,7 @@ button:hover {
   right: -2.5%;
   bottom: 0;
   left: -2.5%;
-  background: #332532;
+  background: #9356DC;
   height: 20%;
   border-radius: 0.25rem;
   box-shadow: inset -4rem -1rem rgba(0, 0, 0, 0.12);
@@ -692,7 +694,7 @@ button:hover {
   left: 50%;
   margin-left: -3%;
   bottom: 0;
-  background: #734952;
+  background: #FF79DA;
   box-shadow: inset -0.25rem 0.75rem rgba(0, 0, 0, 0.12);
 }
 .shaft .knob {
@@ -703,7 +705,7 @@ button:hover {
   width: 400%;
   border-radius: 100%;
   left: -150%;
-  background: #332532;
+  background: #9356DC;
   box-shadow: inset -0.5rem 0 rgba(0, 0, 0, 0.12);
 }
 .shaft .knob:after {
@@ -718,9 +720,9 @@ button:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #734952;
+  background: #FF79DA;
   height: 5%;
-  border: 0.3rem solid #332532;
+  border: 0.3rem solid #9356DC;
   border-top: 0;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
@@ -733,7 +735,7 @@ button:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #332409;
+  background: #9356DC;
   height: 20%;
   transform: scaleY(0);
   border-radius: 0 0 4% 4%;
@@ -750,7 +752,7 @@ button:hover {
   right: 0;
   bottom: 0;
   left: -100%;
-  background: rgba(94, 230, 235, 0.15);
+  background: rgba(153, 226, 208, 0.15);
   transform: scaleY(0);
   transform-origin: bottom center;
   -webkit-animation: fill-water 10000ms infinite;
