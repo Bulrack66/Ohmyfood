@@ -5,4 +5,23 @@ $colour-footer: #353535;
 $colour-icon: gray;
 $colour-background: #f6f6f6;
 $colour-select:#f5edff;
-$background-grad: linear-gradient(350deg, $colour-primary 25%, $colour-secondary 65%)
+$background-grad: linear-gradient(350deg, $colour-primary 25%, $colour-secondary 65%);
+
+// loader //
+$color-bg: #F77A52;
+$color-grounds:#332409;
+$color-coffee: rgba($color-grounds, .85);
+$color-water: rgba(#5EE6EB,.15);
+$color-lid: #332532;
+$color-accent: #734952;
+$color-carafe: rgba(#FFF6EB, .2);
+$color-filter: $color-lid;
+$color-shading: rgba(#000, .12);
+$color-highlight: rgba(#fff, .1);
+
+$carafe-height:80%;
+$carafe-padding: 5%;
+$lid-height: 100% - $carafe-height;
+$grounds-height:20%;
+
+$time: 10000ms;

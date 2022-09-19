@@ -10,6 +10,16 @@
 
 h2{
     font-size: 20px;
+    .under-lign {
+        &::after {
+            content: "";
+            width: 10%;
+            height: 4px;
+            display: flex;
+            background-color: $colour-tertiary;
+            margin-top: 5px;
+          }
+    }
 }
 
 .top-meal h1 {
