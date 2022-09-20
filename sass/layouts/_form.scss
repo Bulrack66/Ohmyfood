@@ -4,6 +4,11 @@
     .bloc-page {
         z-index: -1;
     }
+
+    body {
+        z-index: 1;
+    }
+    
     .location {
         display: flex;
         justify-content: end;
@@ -21,6 +26,8 @@
         display: flex;
         justify-content: start;
         background-color: $colour-background;
+        z-index: 1;
+        position: relative;
         img {
         display: flex;
         margin: 0 0 0 10px;
@@ -38,6 +45,7 @@
         height: 198px;
         border-radius: 30px;
         position: absolute;
+        z-index: 1;
         right: 21px;
         top: 20px;
         box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
@@ -49,6 +57,7 @@
         height: 198px;
         border-radius: 30px;
         position: absolute;
+        z-index: 1;
         right: 21px;
         top: 20px;
         box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
@@ -60,6 +69,7 @@
         height: 198px;
         border-radius: 30px;
         position: absolute;
+        z-index: 1;
         right: 21px;
         top: 20px;
         box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
@@ -71,6 +81,7 @@
         height: 198px;
         border-radius: 30px;
         position: absolute;
+        z-index: 1;
         right: 21px;
         top: 20px;
         box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);

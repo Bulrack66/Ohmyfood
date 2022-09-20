@@ -568,10 +568,10 @@ button:hover {
 
 .press {
   margin: auto;
-  width: 10%;
+  width: 10vh;
   max-width: 70%;
   position: absolute;
-  top: 15%;
+  top: 40vh;
   left: 50%;
   transform: translate(-50%, -20%);
   -webkit-animation: pour 10000ms infinite;
@@ -848,6 +848,9 @@ footer p {
   .bloc-page {
     z-index: -1;
   }
+  body {
+    z-index: 1;
+  }
   .location {
     display: flex;
     justify-content: end;
@@ -862,6 +865,8 @@ footer p {
     display: flex;
     justify-content: start;
     background-color: #f6f6f6;
+    z-index: 1;
+    position: relative;
   }
   .logo img {
     display: flex;
@@ -877,6 +882,7 @@ footer p {
     height: 198px;
     border-radius: 30px;
     position: absolute;
+    z-index: 1;
     right: 21px;
     top: 20px;
     box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
@@ -887,6 +893,7 @@ footer p {
     height: 198px;
     border-radius: 30px;
     position: absolute;
+    z-index: 1;
     right: 21px;
     top: 20px;
     box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
@@ -897,6 +904,7 @@ footer p {
     height: 198px;
     border-radius: 30px;
     position: absolute;
+    z-index: 1;
     right: 21px;
     top: 20px;
     box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
@@ -907,6 +915,7 @@ footer p {
     height: 198px;
     border-radius: 30px;
     position: absolute;
+    z-index: 1;
     right: 21px;
     top: 20px;
     box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);

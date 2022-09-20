@@ -24,10 +24,10 @@
 
 .press{
   margin:auto;
-  width: 10%;
+  width: 10vh;
   max-width:70%;
   position:absolute;
-  top:15%;
+  top:40vh;
   left:50%;
   transform:translate(-50%, -20%);
   animation: pour $time infinite;
