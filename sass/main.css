@@ -180,6 +180,8 @@
   justify-content: center;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin: 0 -5px 0 -5px;
+  margin: auto 15px;
 }
 .logo img {
   display: block;
@@ -194,7 +196,7 @@
        column-gap: 10px;
   background-color: gainsboro;
   height: 50px;
-  width: 100%;
+  margin: 0 -5px 0 -5px;
 }
 .location i, .location p {
   margin: auto 5px;
@@ -541,6 +543,7 @@ button:hover {
   z-index: 10002;
   -webkit-animation: 7s ease-in-out 7s 1 both timerloader;
           animation: 7s ease-in-out 7s 1 both timerloader;
+  margin: -5px;
 }
 
 .holder {
@@ -821,6 +824,7 @@ body {
 footer {
   background-color: #353535;
   padding: 20px;
+  margin: 0 -5px 0 -5px;
 }
 footer .fa-utensils {
   margin-right: 15px;
@@ -860,6 +864,7 @@ footer p {
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 1;
   }
   .logo {
     display: flex;
