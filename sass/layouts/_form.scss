@@ -1,6 +1,9 @@
 @media all and (min-width: 768px) {
     // WELC //
 
+    .bloc-page {
+        z-index: -1;
+    }
     .location {
         display: flex;
         justify-content: end;
