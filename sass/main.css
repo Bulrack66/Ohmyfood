@@ -292,8 +292,7 @@ main {
   position: relative;
   background-color: #f6f6f6;
   border-radius: 30px 30px 0px 0px;
-  margin-top: -30px;
-  margin-bottom: -30px;
+  margin: -30px -5px 0px -5px;
 }
 
 .meal {
@@ -784,31 +783,35 @@ body {
   justify-content: center;
 }
 .presentation #lapalettedugout {
-  width: 100%;
+  width: 102%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0px -5px 0px -5px;
 }
 
 #lanoteenchantee {
-  width: 100%;
+  width: 102%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0px -5px 0px -5px;
 }
 
 #alafrancaise {
-  width: 100%;
+  width: 102%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0px -5px 0px -5px;
 }
 
 #ledelicedessens {
-  width: 100%;
+  width: 102%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0px -5px 0px -5px;
 }
 
 .about {
@@ -850,6 +853,7 @@ footer p {
 @media all and (min-width: 768px) {
   .bloc-page {
     z-index: -1;
+    margin: -30px -5px;
   }
   body {
     z-index: 1;
@@ -871,6 +875,7 @@ footer p {
     background-color: #f6f6f6;
     z-index: 1;
     position: relative;
+    margin: -5px -5px;
   }
   .logo img {
     display: flex;
@@ -968,7 +973,7 @@ footer p {
   }
   .btn h2 .under-lign::after {
     content: "";
-    width: 20vh;
+    width: 10vh;
     height: 4px;
     display: flex;
     background-color: #99E2D0;

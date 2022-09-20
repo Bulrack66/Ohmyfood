@@ -3,6 +3,7 @@
 
     .bloc-page {
         z-index: -1;
+        margin: -30px -5px;
     }
 
     body {
@@ -29,6 +30,7 @@
         background-color: $colour-background;
         z-index: 1;
         position: relative;
+        margin: -5px -5px;
         img {
         display: flex;
         margin: 0 0 0 10px;
@@ -126,7 +128,7 @@
             margin-bottom: 0px;
             .under-lign::after {
                 content: "";
-                width: 20vh;
+                width: 10vh;
                 height: 4px;
                 display: flex;
                 background-color: #99E2D0;
