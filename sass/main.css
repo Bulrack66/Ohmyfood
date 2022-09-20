@@ -198,7 +198,7 @@
   margin: 0 -5px 0 -5px;
 }
 .location i, .location p {
-  margin: auto 5px;
+  margin: auto 10px auto 0;
 }
 
 .title {
