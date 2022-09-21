@@ -10,7 +10,9 @@
 
 h2{
     font-size: 20px;
-    .under-lign {
+}
+
+.under-lign {
         &::after {
             content: "";
             width: 9vh;
@@ -20,7 +22,6 @@ h2{
             margin-top: 5px;
           }
     }
-}
 
 .top-meal h1 {
     font-family: shrikhand, sans-serif;

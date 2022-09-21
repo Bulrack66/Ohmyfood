@@ -375,7 +375,8 @@ main {
 h2 {
   font-size: 20px;
 }
-h2 .under-lign::after {
+
+.under-lign::after {
   content: "";
   width: 9vh;
   height: 4px;
