@@ -13,7 +13,7 @@ h2{
     .under-lign {
         &::after {
             content: "";
-            width: 10vh;
+            width: 9vh;
             height: 4px;
             display: flex;
             background-color: $colour-tertiary;

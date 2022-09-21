@@ -2,7 +2,7 @@
 @-webkit-keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
-    opacity: 0;
+    opacity: 1;
   }
   30% {
     transform: translateY(0%);
@@ -12,7 +12,7 @@
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
-    opacity: 0;
+    opacity: 1;
   }
   30% {
     transform: translateY(0%);
@@ -141,6 +141,10 @@
   0% {
     opacity: 1;
   }
+  90% {
+    visibility: hidden;
+    opacity: 0;
+  }
   100% {
     visibility: hidden;
     opacity: 0;
@@ -150,31 +154,15 @@
   0% {
     opacity: 1;
   }
+  90% {
+    visibility: hidden;
+    opacity: 0;
+  }
   100% {
     visibility: hidden;
     opacity: 0;
   }
 }
-.meal__1 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0s 1 slideInFromBottom;
-}
-
-.meal__2 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0.2s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0.2s 1 slideInFromBottom;
-}
-
-.meal__3 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0.4s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0.4s 1 slideInFromBottom;
-}
-
-.meal__4 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0.6s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 0.6s 1 slideInFromBottom;
-}
-
 .logo {
   display: flex;
   justify-content: center;
@@ -281,6 +269,24 @@ main {
   font-weight: 300;
 }
 
+.logo__meal {
+  justify-content: start;
+}
+.logo__meal img {
+  margin: 0px;
+}
+
+.arrow-back {
+  font-size: 20px;
+  flex-basis: 25%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.arrow-back i {
+  padding-left: 15%;
+}
+
 .btn__meal {
   flex-basis: 100%;
 }
@@ -304,6 +310,7 @@ main {
   box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
   overflow: hidden;
   flex-basis: 100%;
+  cursor: pointer;
 }
 .meal__description {
   display: flex;
@@ -337,6 +344,26 @@ main {
   margin-top: 30px;
 }
 
+.meal__1 {
+  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7s 1 slideInFromBottom;
+          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7s 1 slideInFromBottom;
+}
+
+.meal__2 {
+  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.2s 1 slideInFromBottom;
+          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.2s 1 slideInFromBottom;
+}
+
+.meal__3 {
+  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.4s 1 slideInFromBottom;
+          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.4s 1 slideInFromBottom;
+}
+
+.meal__4 {
+  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.6s 1 slideInFromBottom;
+          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.6s 1 slideInFromBottom;
+}
+
 * {
   font-family: roboto, sans-serif;
 }
@@ -350,7 +377,7 @@ h2 {
 }
 h2 .under-lign::after {
   content: "";
-  width: 10vh;
+  width: 9vh;
   height: 4px;
   display: flex;
   background-color: #99E2D0;
@@ -412,7 +439,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  padding-top: 30px;
   margin: 15px;
   margin-right: 10px;
 }
@@ -880,8 +906,15 @@ footer p {
   .logo img {
     display: flex;
     margin: 0 0 0 10px;
-    width: 50vh;
+    width: 30%;
     justify-content: start;
+  }
+  .arrow-back {
+    font-size: 30px;
+    flex-basis: 10%;
+  }
+  .arrow-back i {
+    padding-left: 20%;
   }
   .like__back-smoke .fa-heart {
     top: 51px;
@@ -935,6 +968,7 @@ footer p {
     -moz-column-gap: 70px;
          column-gap: 70px;
     width: 50%;
+    padding-top: 50px;
   }
   h1 {
     font-size: 25px;
@@ -961,7 +995,7 @@ footer p {
     justify-content: center;
     -moz-column-gap: 15px;
          column-gap: 15px;
-    padding-top: 30px;
+    padding-top: 0px;
   }
   .btn__select {
     flex-basis: 30%;

@@ -1,7 +1,7 @@
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
-    opacity:0;
+    opacity:1;
   }
   30% {
     transform: translateY(0%);
@@ -79,9 +79,14 @@
       
       opacity: 1;
   }
-  100% {
+  90% {
       
       visibility: hidden;
       opacity: 0;
   }
+  100% {
+      
+    visibility: hidden;
+    opacity: 0;
+}
 }

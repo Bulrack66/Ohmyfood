@@ -34,10 +34,17 @@
         img {
         display: flex;
         margin: 0 0 0 10px;
-        width: 50vh;
+        width: 30%;
         justify-content: start;
       }
     }
+    .arrow-back {
+        font-size: 30px;
+        flex-basis: 10%;
+        i {
+            padding-left: 20%;
+          }
+      }
 
     .like__back-smoke .fa-heart {
         top: 51px;
@@ -94,6 +101,7 @@
         justify-content: start;
         column-gap: 70px;
         width: 50%;
+        padding-top: 50px;
       }
     h1 {
         font-size: 25px;
@@ -118,7 +126,7 @@
         flex-wrap: wrap;
         justify-content: center;
         column-gap: 15px;
-        padding-top: 30px;
+        padding-top: 0px;
         &__select {
             flex-basis: 30%;
         }

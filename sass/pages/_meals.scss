@@ -1,3 +1,19 @@
+.logo__meal {
+    justify-content: start;
+    img {
+        margin: 0px;
+    }
+}
+.arrow-back {
+        font-size: 20px;
+        flex-basis: 25%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        i {
+            padding-left: 15%;
+        }
+}
 
 .btn__meal{
     flex-basis: 100%;
@@ -20,6 +36,7 @@
     box-shadow: 0px 0px 6px 4px rgba(218, 218, 218, 0.91);
     overflow: hidden;
     flex-basis: 100%;
+    cursor: pointer;
     &__description {
         display: flex;
         flex-direction: column;
