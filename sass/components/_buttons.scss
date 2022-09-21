@@ -50,7 +50,7 @@ button {
     margin: 15px;
     margin-right: 10px;
         h2 {
-            margin-left: -5px;
+            margin-bottom: 0px;
             font-weight: 600;
         }
         &__select {
@@ -96,7 +96,7 @@ button {
     .fa-heart{
     position: absolute;
     right: 25px;
-    top: 35px;
+    top: 25px;
     transition: all 450ms;
     font-size: 25px;
     }

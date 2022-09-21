@@ -222,6 +222,22 @@
   margin-bottom: -10px;
   padding-bottom: 30px;
 }
+.list .new-image {
+  position: relative;
+}
+.list .new-image .new {
+  position: absolute;
+  background-color: #99E2D0;
+  color: #278870;
+  right: 15px;
+  top: 15px;
+  border-radius: 2px;
+}
+.list .new-image .new p {
+  margin: 6px 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
 .list h2 {
   margin-left: 10px;
   font-weight: 600;
@@ -444,7 +460,7 @@ button:hover {
   margin-right: 10px;
 }
 .btn h2 {
-  margin-left: -5px;
+  margin-bottom: 0px;
   font-weight: 600;
 }
 .btn__select {
@@ -490,7 +506,7 @@ button:hover {
 .like .fa-heart {
   position: absolute;
   right: 25px;
-  top: 35px;
+  top: 25px;
   transition: all 450ms;
   font-size: 25px;
 }
