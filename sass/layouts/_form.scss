@@ -114,10 +114,11 @@
         flex-direction: row;
         justify-content: space-around;
         column-gap: 20px;
-        padding-right: 20px;
         padding-bottom: 25px;
         padding-left: 0px;
-        background-color: $colour-background;
+        &__title {
+            margin-left: 8px;
+        }
       }
     .btn {
         flex-direction: row;

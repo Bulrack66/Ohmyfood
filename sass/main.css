@@ -391,7 +391,7 @@ h2 {
 
 .under-lign::after {
   content: "";
-  width: 9vh;
+  width: 65px;
   height: 4px;
   display: flex;
   background-color: #99E2D0;
@@ -998,10 +998,11 @@ footer p {
     justify-content: space-around;
     -moz-column-gap: 20px;
          column-gap: 20px;
-    padding-right: 20px;
     padding-bottom: 25px;
     padding-left: 0px;
-    background-color: #f6f6f6;
+  }
+  .title__title {
+    margin-left: 8px;
   }
   .btn {
     flex-direction: row;
