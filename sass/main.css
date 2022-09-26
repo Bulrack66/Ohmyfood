@@ -358,23 +358,23 @@ a {
 }
 
 .meal__1 {
-  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7s 1 slideInFromBottom;
-          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7s 1 slideInFromBottom;
+  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3s 1 slideInFromBottom;
+          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3s 1 slideInFromBottom;
 }
 
 .meal__2 {
-  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.2s 1 slideInFromBottom;
-          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.2s 1 slideInFromBottom;
+  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.2s 1 slideInFromBottom;
+          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.2s 1 slideInFromBottom;
 }
 
 .meal__3 {
-  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.4s 1 slideInFromBottom;
-          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.4s 1 slideInFromBottom;
+  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.4s 1 slideInFromBottom;
+          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.4s 1 slideInFromBottom;
 }
 
 .meal__4 {
-  -webkit-animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.6s 1 slideInFromBottom;
-          animation: 7s cubic-bezier(0.63, 0.35, 0.42, 0.82) 7.6s 1 slideInFromBottom;
+  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.6s 1 slideInFromBottom;
+          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.6s 1 slideInFromBottom;
 }
 
 * {
@@ -579,8 +579,8 @@ button:hover {
   display: flex;
   overflow: hidden;
   z-index: 10002;
-  -webkit-animation: 7s ease-in-out 7s 1 both timerloader;
-          animation: 7s ease-in-out 7s 1 both timerloader;
+  -webkit-animation: 3s ease-in-out 3s 1 both timerloader;
+          animation: 3s ease-in-out 3s 1 both timerloader;
   margin: -8px;
 }
 
