@@ -184,6 +184,7 @@
   background-color: gainsboro;
   height: 50px;
   margin: 0 -8px 10px -8px;
+  box-shadow: inset 0px 2px 4px 0px darkgrey;
 }
 .location i, .location p {
   margin: auto 10px auto 0;
@@ -201,6 +202,7 @@
   padding-bottom: 30px;
   padding-left: 20px;
   background-color: #f6f6f6;
+  box-shadow: inset 0px 2px 4px 0px darkgrey;
 }
 .title__text {
   display: flex;
@@ -358,23 +360,23 @@ a {
 }
 
 .meal__1 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3s 1 slideInFromBottom;
+  -webkit-animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2s 1 slideInFromBottom;
+          animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2s 1 slideInFromBottom;
 }
 
 .meal__2 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.2s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.2s 1 slideInFromBottom;
+  -webkit-animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2.2s 1 slideInFromBottom;
+          animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2.2s 1 slideInFromBottom;
 }
 
 .meal__3 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.4s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.4s 1 slideInFromBottom;
+  -webkit-animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2.4s 1 slideInFromBottom;
+          animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2.4s 1 slideInFromBottom;
 }
 
 .meal__4 {
-  -webkit-animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.6s 1 slideInFromBottom;
-          animation: 4s cubic-bezier(0.63, 0.35, 0.42, 0.82) 3.6s 1 slideInFromBottom;
+  -webkit-animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2.6s 1 slideInFromBottom;
+          animation: 3s cubic-bezier(0.63, 0.35, 0.42, 0.82) 2.6s 1 slideInFromBottom;
 }
 
 * {
@@ -579,8 +581,8 @@ button:hover {
   display: flex;
   overflow: hidden;
   z-index: 10002;
-  -webkit-animation: 3s ease-in-out 3s 1 both timerloader;
-          animation: 3s ease-in-out 3s 1 both timerloader;
+  -webkit-animation: 2s ease-in-out 2s 1 both timerloader;
+          animation: 2s ease-in-out 2s 1 both timerloader;
   margin: -8px;
 }
 
@@ -910,6 +912,7 @@ footer p {
     right: 0;
     top: 0;
     z-index: 1;
+    box-shadow: inherit;
   }
   .logo {
     display: flex;
