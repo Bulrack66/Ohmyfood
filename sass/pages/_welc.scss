@@ -18,6 +18,7 @@
         background-color: gainsboro;
         height: 50px;
         margin: 0 -8px 10px -8px;
+        box-shadow: inset 0px 2px 4px 0px darkgrey;
         i,p {
             margin: auto 10px auto 0;
         }
@@ -36,6 +37,7 @@
     padding-bottom: 30px;
     padding-left: 20px;
     background-color: $colour-background;
+    box-shadow: inset 0px 2px 4px 0px darkgrey;
     &__text {    
         display: flex;
         row-gap: 10px;
